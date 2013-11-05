@@ -1,0 +1,25 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: buzzjax_development
+  pool: 5
+  username: Chandler
+  password:
+  host: localhost
+
+# test:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: buzzjax_test
+#   pool: 5
+#   username: buzzjax
+#   password:
+
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: buzzjax_production
+#   pool: 5
+#   username: buzzjax
+#   password:
