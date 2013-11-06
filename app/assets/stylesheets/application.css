@@ -29,10 +29,16 @@ body {
   margin-top: 5%;
 }
 
+#bullshit_form input {
+  font-size: 25px;
+  padding: 15px;
+}
+
 #bullshit_zone {
   margin-top: 2%;
   font-size: 25px;
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
 }
+
