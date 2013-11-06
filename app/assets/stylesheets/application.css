@@ -11,3 +11,28 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+  background: url(http://mplusstudios.com/wp-content/uploads/2013/07/business-meeting1.jpeg);
+  background-size: cover;
+}
+
+#main {
+  margin-top: 15%;
+}
+
+#main h1 {
+  font-size: 1000%;
+}
+
+#bullshit_form {
+  margin-top: 5%;
+}
+
+#bullshit_zone {
+  margin-top: 2%;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
