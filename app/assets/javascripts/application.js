@@ -16,15 +16,10 @@
 //= require_tree .
 
 $(function(){
-
   var $bullshitZone = $('#bullshit_zone');
   var $bsForm = $('#bullshit_form');
-
   $bsForm.on('submit', function(e){
-
-
     e.preventDefault();
-
     $.ajax({
       url: '/getbullshit',
       method: 'GET',
@@ -34,7 +29,5 @@ $(function(){
       console.log(data);
       $bullshitZone.html(data);
     });
-
   });
-
 });

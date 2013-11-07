@@ -9,7 +9,6 @@
 require 'faker'
 
 Bullshit.delete_all
-
 2000.times do |bullshit|
   Bullshit.create(bs:("We need to "+Faker::Company.bs+" using "+Faker::Company.catch_phrase+".").capitalize)
 end
