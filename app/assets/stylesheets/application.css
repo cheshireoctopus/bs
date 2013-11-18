@@ -18,7 +18,7 @@ body {
 }
 
 #main {
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 #main h1 {
@@ -26,17 +26,17 @@ body {
 }
 
 #bullshit_form {
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 #bullshit_form input {
-  font-size: 25px;
+  font-size: 200%;
   padding: 15px;
 }
 
 #bullshit_zone {
-  margin-top: 2%;
-  font-size: 25px;
+  margin-top: 8%;
+  font-size: 200%;
   color: white;
   font-weight: bold;
   text-shadow: 2px 2px 2px black;
