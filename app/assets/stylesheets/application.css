@@ -13,12 +13,12 @@
  */
 
 body {
-  background: url(/assets/bground.jpeg);
+  background: url(/assets/bground.jpeg) fixed no-repeat;
   background-size: cover;
 }
 
 #main {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 #main h1 {
@@ -26,7 +26,7 @@ body {
 }
 
 #bullshit_form {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 #bullshit_form input {
